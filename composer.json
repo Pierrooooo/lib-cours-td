@@ -1,0 +1,23 @@
+{
+    "name": "pierrooooo/cours-lib-td",
+    "description": "A beautiful demo package in pgrimaud's class",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pierrooooo\\CourslibTd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pierre Caillet",
+            "email": "pierrecaillet2811@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
